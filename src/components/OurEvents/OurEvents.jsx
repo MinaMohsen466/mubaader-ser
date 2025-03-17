@@ -8,10 +8,10 @@ import event2011_3 from '../../../images/events-pic-2011/A1p1.jpg';
 import event2011_4 from '../../../images/events-pic-2011/A1p1.jpg';
 
 // Import 2016 images
-import event2016_1 from '../../../images/events-pic-2016/ec24aa39c5d75b3d6052ccb88a5efe35.PNG';
-import event2016_2 from '../../../images/events-pic-2016/ec24aa39c5d75b3d6052ccb88a5efe35.PNG';
-import event2016_3 from '../../../images/events-pic-2016/ec24aa39c5d75b3d6052ccb88a5efe35.PNG';
-import event2016_4 from '../../../images/events-pic-2016/ec24aa39c5d75b3d6052ccb88a5efe35.PNG';
+import event2016_1 from '../../../images/events-pic-2016/04abec31946105b51cffd00e5ec63ce2.jpg';
+import event2016_2 from '../../../images/events-pic-2016/04abec31946105b51cffd00e5ec63ce2.jpg';
+import event2016_3 from '../../../images/events-pic-2016/04abec31946105b51cffd00e5ec63ce2.jpg';
+import event2016_4 from '../../../images/events-pic-2016/04abec31946105b51cffd00e5ec63ce2.jpg';
 
 const OurEvents = ({ language }) => {
     const [activeTab, setActiveTab] = useState('photos');
