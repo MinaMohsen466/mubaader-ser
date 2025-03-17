@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Career.css';
 
-const Career = () => {
+const Career = ({ language }) => {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -82,13 +82,15 @@ const Career = () => {
   return (
     <section className="career-section">
       <div className="career-container">
-        <div className="career-header">
-          <h1 className="career-title">Career with Mubaader</h1>
-          <p className="career-quote">
-            "Have the courage to follow your heart and intuition. They somehow know what you truly want to become."
-          </p>
-          <p className="quote-author">– Steve Jobs</p>
-        </div>
+        {language ? (
+          <div className="career-header">
+            <h1 className="career-title">Career with Mubaader</h1>
+        </div>):(
+          <div className="career-header">
+            <h1 className="career-title">التقديم على الوظائف مع مبادر</h1>
+            
+          </div>
+        )}
 
         <form className="career-form" onSubmit={handleSubmit}>
           <div className="form-group">

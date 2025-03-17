@@ -1,0 +1,189 @@
+.courses-section {
+    padding: 40px 0;
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.courses-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.course-info {
+    flex: 0 0 350px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.course-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.course-details h3 {
+    font-size: 1.4rem;
+    color: #2d3748;
+    margin: 0 0 5px;
+}
+
+.course-details h3 span {
+    display: block;
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-top: 5px;
+}
+
+.course-type {
+    color: #718096;
+    font-size: 1rem;
+    margin: 0 0 15px;
+}
+
+.instructor {
+    padding: 15px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+.instructor .name {
+    font-size: 1.1rem;
+    color: #2d3748;
+    margin: 0 0 5px;
+}
+
+.instructor .role {
+    font-size: 0.9rem;
+    color: #718096;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.website {
+    display: block;
+    color: #3182ce;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.registration span {
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.registration a {
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.get-started {
+    flex: 1;
+    padding: 20px;
+}
+
+.get-started h2 {
+    color: #D4B895;
+    font-size: 2rem;
+    margin: 0 0 25px;
+    font-weight: 500;
+}
+
+.services-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.services-btn:hover {
+    background: white;
+    color: #2d3748;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.services p {
+    color: #A8A8A8;
+    margin: 0;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.services p:hover {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-info {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .get-started {
+        text-align: center;
+        padding: 0;
+    }
+
+    .get-started h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .courses-section {
+        padding: 30px 0;
+    }
+
+    .course-details h3 {
+        font-size: 1.2rem;
+    }
+
+    .course-details h3 span {
+        font-size: 1rem;
+    }
+
+    .services-btn {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+
+    .services p {
+        font-size: 0.9rem;
+    }
+}

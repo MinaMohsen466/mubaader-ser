@@ -9,6 +9,9 @@ import Footer from './components/5-Footer/Footer'
 import OurEvents from './components/OurEvents/OurEvents'
 import Career from './components/8-Career/Career'
 import GetStart from './components/9-GetStart/GetStart'
+import CoursesSec from './components/CoursesSec/CoursesSec'
+import Terms from './components/polices/Terms/Terms'
+import Privacy from './components/polices/Privacy/Privacy'
 function App() {
   const [language, setLanguage] = useState(true)
 
@@ -17,6 +20,7 @@ function App() {
       <Banner />
       <WhoWeAre language={language} />
       <WhatWeDo language={language} />
+      <CoursesSec language={language} />
     </>
   )
 
@@ -29,6 +33,8 @@ function App() {
         <Route path="/our-events" element={<OurEvents language={language} />} />
         <Route path="/careers" element={<Career language={language} />} />
         <Route path="/get-start" element={<GetStart language={language} />} />
+        <Route path="/terms" element={<Terms language={language} />} />
+        <Route path="/privacy" element={<Privacy language={language} />} />
       </Routes>
       <Footer language={language} />
     </Router>

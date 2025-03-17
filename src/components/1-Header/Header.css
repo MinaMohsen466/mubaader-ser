@@ -160,11 +160,14 @@
     .language-btn-ar.active {
         font-size: 1.1rem;
         padding: 10px 20px;
-        border: 1px solid var(--primary-color);
+        border: 1px solid #484D57;
         border-radius: 5px;
         background-color: #fff;
-    }
+        position: absolute;
+        right: 20px;
+        background-color: rgba(255,255,255,0.7);
 
+    }
     .language-btn-en.active:hover,
     .language-btn-ar.active:hover {
         background-color: var(--hover-color);
