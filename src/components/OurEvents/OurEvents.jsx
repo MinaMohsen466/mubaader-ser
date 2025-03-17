@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './OurEvents.css';
 
 // Import 2011 images
-import event2011_1 from '../../../images/events-pic-2011/A1P1.jpg';
-import event2011_2 from '../../../images/events-pic-2011/A1P2.jpg';
-import event2011_3 from '../../../images/events-pic-2011/A1P3.jpg';
-import event2011_4 from '../../../images/events-pic-2011/A1P4.jpg';
+import event2011_1 from '../../../images/events-pic-2011/A1p1.jpg';
+import event2011_2 from '../../../images/events-pic-2011/A1p1.jpg';
+import event2011_3 from '../../../images/events-pic-2011/A1p1.jpg';
+import event2011_4 from '../../../images/events-pic-2011/A1p1.jpg';
 
 // Import 2016 images
 import event2016_1 from '../../../images/events-pic-2016/ec24aa39c5d75b3d6052ccb88a5efe35.PNG';
