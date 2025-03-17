@@ -115,7 +115,7 @@ const portfolioItems = [
   'Veganstore-150x150.jpg',
   'Little-Helpers-Nursery.jpg'
 ].map(filename => ({
-  image: `/images/Portfolio/${filename}`
+  image: `../../../images/Portfolio/${filename}`
 }));
 
 const Portfolio = ({ language }) => {
